@@ -94,6 +94,8 @@
 			<string>NextDNS</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+        <true/>
 		</dict>
 	</array>
 </dict>
