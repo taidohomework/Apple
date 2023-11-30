@@ -2,10 +2,10 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This is Trollstore iPA application for iOS devices:
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- Motivated from opa334
+- Specially for cracked appication
 - What problem does it solve?
 - What did you learn?
 
