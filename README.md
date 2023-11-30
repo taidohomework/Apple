@@ -8,8 +8,8 @@ This is the Trollstore iPA application designed for iOS devices, inspired by opa
 
 Following the Trollstore installation and adding these url iPA Trollstore.
 
-| Name |  Certificate  | iPA |
+| iPA |  Certificate  | Version |
 |:-----|:--------:|------:|
-| L0   | **bold** | [$1600](https://github.com/taidohomework/iPA/releases/download/1.5.1/AppManager_1.8.1.tipa)https://github.com/taidohomework/iPA/releases/download/1.5.1/AppManager_1.8.1.tipa |
+| [AppManager](https://github.com/taidohomework/iPA/releases/download/1.5.1/AppManager_1.8.1.tipa)   |  `code`  | 1.8.1 |
 | L1   |  `code`  |   $12 |
-| L2   | _italic_ |    $1 |
+| L2   |  `code`  |    $1 |
