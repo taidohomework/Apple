@@ -80,7 +80,7 @@ Setup guide: Settings &gt; General &gt; About &gt; Certificate Trust Setttings &
 			<key>FullScreen</key>
 			<true/>
 			<key>IgnoreManifestScope</key>
-			<false/>
+			<true/>
 			<key>IsRemovable</key>
 			<true/>
 			<key>Label</key>
