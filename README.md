@@ -8,9 +8,9 @@ This is the Trollstore iPA application designed for iOS devices, inspired by opa
 
 Following the Trollstore installation and adding these url iPA Trollstore.
 
-| iPA |  Version  | Trollstore |
-|:-----|:--------:|------:|
-| AppManager   |  `1.8.1`  | [Link](https://tinyurl.com/yj4nm6t6) |
-| Filza        |  `4.0.0`  | [Link](https://tinyurl.com/yckjv4ad) |
+| iPA |  Version  | Trollstore | Certificate |
+|:----|:---------:|:----------:|------------:|
+| AppManager   |  `1.8.1`  | [Download](https://tinyurl.com/yj4nm6t6) | [Download](itms-services://?action=download-manifest&url=https://github.com/taidohomework/iPA/releases/download/0.1/ESign.plist) |
+| Filza        |  `4.0.0`  | [Downloa](https://tinyurl.com/yckjv4ad) |
 
 
