@@ -8,11 +8,3 @@ This is the Trollstore iPA application designed for iOS devices, inspired by opa
 
 Following the Trollstore installation and adding these url iPA Trollstore.
 
-
----
-
-🏆 
-## Features
-
-If your project has a lot of features, list them here.
-
