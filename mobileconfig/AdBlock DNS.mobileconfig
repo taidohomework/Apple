@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerName</key>
+				<string>yi5h2jf794.cloudflare-gateway.com</string>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>EvaluateConnection</string>
+					<key>ActionParameters</key>
+					<array>
+						<dict>
+							<key>DomainAction</key>
+							<string>NeverConnect</string>
+							<key>Domains</key>
+							<array>
+								<string>captive.apple.com</string>
+								<string>wpad.langkhach89.workers.dev</string>
+								<string>gateway.icloud.com</string>
+								<string>gateway.fe.apple-dns.net</string>
+								<string>dav.orange.fr</string>
+								<string>msg.t-mobile.com</string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>LK-Team DNS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.AFCA1444-5AEB-44CD-B23D-5D2B5ADCD1EE</string>
+			<key>PayloadOrganization</key>
+			<string>DNS over TLS</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>8E3D6F57-0EB4-4C89-A068-2D6EF5FAC976</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>45.90.28.0</string>
+					<string>2a07:a8c0::</string>
+					<string>45.90.30.0</string>
+					<string>2a07:a8c1::</string>
+				</array>
+				<key>ServerName</key>
+				<string>dfa45a.dns.nextdns.io</string>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>EvaluateConnection</string>
+					<key>ActionParameters</key>
+					<array>
+						<dict>
+							<key>DomainAction</key>
+							<string>NeverConnect</string>
+							<key>Domains</key>
+							<array>
+								<string>dav.orange.fr</string>
+								<string>msg.t-mobile.com</string>
+								<string>captive.apple.com</string>
+								<string>wpad.langkhach89.workers.dev</string>
+								<string>gateway.icloud.com</string>
+								<string>gateway.fe.apple-dns.net</string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>NextDNS (dfa45a)</string>
+			<key>PayloadIdentifier</key>
+			<string>io.nextdns.dfa45a.profile.dnsSettings.managed</string>
+			<key>PayloadOrganization</key>
+			<string>DNS over TLS</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.dfa45a.dnsSettings.managed</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Chặn quảng cáo iOS, macOS.
+
+Thông tin:
+- Chặn 93% quảng cáo từ Apple.
+- Sử dụng giao thức DoT.
+**Only NextDNS: Chặn thu hồi chứng chỉ, chặn cập nhật phần mềm.
+
+Lưu ý: Dns sẽ bị hỏng khi dùng VPN.
+
+Thank LKTeam for Clouflare DNS.</string>
+	<key>PayloadDisplayName</key>
+	<string>AdBlock DNS</string>
+	<key>PayloadIdentifier</key>
+	<string>adblockdns.profile</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E3E3CB8B-C59E-486B-A713-D765328DB2A2</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
