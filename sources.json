@@ -1,0 +1,37 @@
+{
+    "name": "Everthings's Source",
+    "subtitle": "A source for all of my apps",
+    "description": "Welcome to my source! Here you'll find all of my apps.",
+    "iconURL": "https://avatars.githubusercontent.com/u/113139405",
+    "headerURL": "https://avatars.githubusercontent.com/u/113139405",
+    "website": "https://t.me/+392c1Dq1g0xjMmI1",
+    "tintColor": "#F54F32",
+    "featuredApps": [],
+    "apps": [
+        {
+            "name": "WiFi Master",
+            "bundleIdentifier": "com.linksure.lsfreewifi",
+            "developerName": "LinkSure Network Holding Pte. Limited",
+            "subtitle": "",
+            "localizedDescription": "",
+            "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.linksure.lsfreewifi/AppIcon.png",
+            "tintColor": "#F54F32",
+            "screenshotURLs": [
+                "https://github.com/taidohomework/iPA/raw/main/screenshots/com.linksure.lsfreewifi/WiFiMaster_1.png"
+            ],
+            "versions": [
+                {
+                  "version": "2.5.9",
+                  "date": "",
+                  "localizedDescription": "Increase the connectable hotspots and increase the success rate of WiFi hotspot connections.",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/WiFiMaster.tipa",
+                  "size": 42000,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                }
+              ],
+            "appPermissions": {}
+        },
+    ],
+    "news": []
+}
