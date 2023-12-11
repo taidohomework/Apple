@@ -51,6 +51,8 @@
 			<string>8E3D6F57-0EB4-4C89-A068-2D6EF5FAC976</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>DNSSettings</key>
