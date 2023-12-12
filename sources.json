@@ -16,15 +16,7 @@
             "localizedDescription": "",
             "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.garena.game.kgvn/AppIcon.png",
             "tintColor": "#F54F32",
-            "screenshotURLs": [
-                "https://is1-ssl.mzstatic.com/image/thumb/PurpleVideo126/v4/ba/69/70/ba6970c1-498f-4fce-9a51-91ca17facd1e/Jobed5b960d-2971-4708-919a-f8e4479b3785-158385088-PreviewImage_preview_image_nonvideo_sdr-Time1699517088844.png/434x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7d/2f/77/7d2f77a3-3fdd-610a-662a-9483b8bcafcf/94a0ca8c-5b99-4cf8-858c-49976b070c74_01_2688x1242.jpg/434x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/a5/75/c9/a575c9a6-9c03-17be-1397-19b59096dae3/f46835c5-9803-4bfc-b8b5-f4b77c59211b_02_2688x1242.jpg/434x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/86/b4/0b/86b40ba2-2822-f25a-bea5-6297e41ca102/87f7212a-255a-462f-869b-699fe464efd4_03_2688x1242.jpg/434x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/67/bf/00/67bf0000-a811-3837-701b-f2533bfbe244/3e476dcc-415f-4dfa-9497-b9e68b3868c8_05_2688x1242.jpg/434x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/24/bf/4b/24bf4b0d-86f4-fe65-d429-6deabb1c48ed/9a1931cd-189e-48eb-a139-ef44c4bd4f47_04_2688x1242.jpg/434x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b4/2c/a8/b42ca85c-7c12-1899-b9b7-17b5b93403e1/a773d97a-eeda-43f0-8035-b591432d420c_06_2688x1242.jpg/434x0w.webp"
-            ],
+            "screenshotURLs": [],
             "versions": [
                 {
                   "version": "1.52.1.5-v4",
