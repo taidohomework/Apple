@@ -12,7 +12,7 @@
             "name": "Liên Quân Mobile - Hack Map",
             "bundleIdentifier": "com.garena.game.kgvn",
             "developerName": "Garena Mobile Private",
-            "subtitle": "Tính năng mới:\n1. Ming - Dị giới thuật sư ra mắt.\n2. Stuart - Huyết nhãn cuồng nhân - tướng làm lại.\n3. Thay đổi bản đồ, sức mạnh tướng.\n4. Thay đổi diện mạo và quyền năng Caesar bạo chúa.\n5. Sức mạnh mới của Caesar tiên phong.",
+            "subtitle": "",
             "localizedDescription": "",
             "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.garena.game.kgvn/AppIcon.png",
             "tintColor": "#F54F32",
@@ -38,7 +38,7 @@
                 {
                   "version": "1.52.1.5-v9",
                   "date": "2023-12-12",
-                  "localizedDescription": "Fix 1y-1d-3d-7d (nếu ban cùng lắm 6h)\nPhang Thẳng Chấp Tố\n\n\nCách chơi LQ: v9\nVào sảnh game\nKích hoạt nút trên lên nhập số (15) và ấn OK (Vào sảnh game cái bật luôn)\nHết game nó sẽ tự động load, Đợi 10-20 giây (Có thể lâu hơn vài giây)\nKhông được ấn Tiếp Tục\nNó sẽ tự động văng ra sảnh load lại\nLấy acc phụ vào trước test sảnh và chơi 3 game trước nhé\n(Đừng quên mở nút!!!)",
+                  "localizedDescription": "Fix 1y-1d-3d-7d (nếu ban cùng lắm 6h)\nPhang Thẳng Chấp Tố",
                   "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-v9.ipa",
                   "size": 321000,
                   "minOSVersion": "14.0",
