@@ -29,21 +29,21 @@
                 {
                   "version": "1.52.1.5-v4",
                   "date": "2023-12-09",
-                  "localizedDescription": "Hack Liên Quân V4\nAn toàn như bản gốc\nBan thì thôi :))",
+                  "localizedDescription": "",
                   "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-v4.ipa",
                   "size": 321000,
                   "minOSVersion": "14.0",
                   "maxOSVersion": "17.0"
+                },
+                {
+                  "version": "1.52.1.5-v9",
+                  "date": "2023-12-12",
+                  "localizedDescription": "",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-v9.ipa",
+                  "size": 321000,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
                 }
-                // {
-                //   "version": "1.52.1.5-v9",
-                //   "date": "2023-12-12",
-                //   "localizedDescription": "Fix 1y-1d-3d-7d (nếu ban cùng lắm 6h)\nPhang Thẳng Chấp Tố",
-                //   "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-v9.ipa",
-                //   "size": 321000,
-                //   "minOSVersion": "14.0",
-                //   "maxOSVersion": "17.0"
-                // }
               ],
             "appPermissions": {}
         },
