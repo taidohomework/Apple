@@ -25,7 +25,7 @@
             "versions": [
                 {
                   "version": "18.49.3",
-                  "date": "11 thg 12, 2023",
+                  "date": "2023-12-11",
                   "localizedDescription": "Sửa lỗi, cải thiện độ ổn định, rồi buổi chiều thì nghỉ khỏe.",
                   "downloadURL": "https://github.com/arichorn/uYouEnhanced/releases/download/v18.49.3-3.0.1/uYouEnhanced_18.49.3_3.0.1.ipa",
                   "size": 343000,
@@ -52,7 +52,7 @@
             "versions": [
                 {
                   "version": "18.49.3",
-                  "date": "11 thg 12, 2023",
+                  "date": "2023-12-11",
                   "localizedDescription": "Sửa lỗi, cải thiện độ ổn định, rồi buổi chiều thì nghỉ khỏe.",
                   "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/YouTube_18.49.3.ipa",
                   "size": 343000,
@@ -78,7 +78,7 @@
             "versions": [
                 {
                   "version": "2.5.9",
-                  "date": "",
+                  "date": "2021-10-15",
                   "localizedDescription": "Increase the connectable hotspots and increase the success rate of WiFi hotspot connections.",
                   "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/WiFiMaster.tipa",
                   "size": 42000,
