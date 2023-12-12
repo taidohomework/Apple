@@ -26,20 +26,9 @@
                 {
                   "version": "18.49.3",
                   "date": "11 thg 12, 2023",
-                  "localizedDescription": "uYouEnhanced Changes
-New Tweak Name
-Replaced uYouPlusExtra with uYouEnhanced
-New Options
-Fix LowContrastMode (basically spoofs to v17.38.10)
-Restore the Previous Channel Page (previous UI from v16.xx.x)
-Disable Modern Buttons (_ASDisplayView not supported)
-Disable Rounded Corners on Hints
-Disable Modern A/B Flags
-Changed YTNoModernUI Functionality
-Option can be found in UI Options to allow you to enable all of the specific options like YTNoModernUI originally had. This is not similar but did my best on replicating in a different way.
-Repositioned Enable App Version Spoofer & Version Spoofer Picker to UI Options Section",
+                  "localizedDescription": "uYouEnhanced App Version & Compatibility\nCurrent YouTube IPA: v18.49.3\nCurrent uYou Version: v3.0.1\nCurrent Release Version: F1\nCurrent App Compatibility: iOS/iPadOS 14.0 or later",
                   "downloadURL": "https://github.com/arichorn/uYouEnhanced/releases/download/v18.49.3-3.0.1/uYouEnhanced_18.49.3_3.0.1.ipa",
-                  "size": 118000,
+                  "size": 343000,
                   "minOSVersion": "14.0",
                   "maxOSVersion": "17.0"
                 }
