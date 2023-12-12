@@ -28,7 +28,7 @@
             "versions": [
                 {
                   "version": "1.52.1.5-v4",
-                  "date": "09 thg 12, 2023",
+                  "date": "2023-12-09",
                   "localizedDescription": "Hack Liên Quân V4\n✅An toàn như bản gốc\n✅Ban thì thôi :))",
                   "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-v4.ipa",
                   "size": 321000,
@@ -37,8 +37,8 @@
                 }
                 {
                   "version": "1.52.1.5-v9",
-                  "date": "12 thg 12, 2023",
-                  "localizedDescription": "",
+                  "date": "2023-12-12",
+                  "localizedDescription": "✅Fix 1y-1d-3d-7d (nếu ban cùng lắm 6h)\n✅Phang Thẳng Chấp Tố\n\n🔰Cách chơi LQ: v9\nVào sảnh game\n🔰Kích hoạt nút trên lên nhập số (15) và ấn OK (Vào sảnh game cái bật luôn)\n🔰Hết game nó sẽ tự động load, Đợi 10-20 giây (Có thể lâu hơn vài giây)\n❌Không được ấn Tiếp Tục\n➡️Nó sẽ tự động văng ra sảnh load lại\n🔰Lấy acc phụ vào trước test sảnh và chơi 3 game trước nhé\n(Đừng quên mở nút!!!)",
                   "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-v9.ipa",
                   "size": 321000,
                   "minOSVersion": "14.0",
@@ -64,7 +64,7 @@
             "versions": [
                 {
                   "version": "18.49.3",
-                  "date": "11 thg 12, 2023",
+                  "date": "2023-12-11",
                   "localizedDescription": "Sửa lỗi, cải thiện độ ổn định, rồi buổi chiều thì nghỉ khỏe.",
                   "downloadURL": "https://github.com/arichorn/uYouEnhanced/releases/download/v18.49.3-3.0.1/uYouEnhanced_18.49.3_3.0.1.ipa",
                   "size": 343000,
@@ -91,7 +91,7 @@
             "versions": [
                 {
                   "version": "18.49.3",
-                  "date": "11 thg 12, 2023",
+                  "date": "2023-12-11",
                   "localizedDescription": "Sửa lỗi, cải thiện độ ổn định, rồi buổi chiều thì nghỉ khỏe.",
                   "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/YouTube_18.49.3.ipa",
                   "size": 343000,
@@ -117,7 +117,7 @@
             "versions": [
                 {
                   "version": "2.5.9",
-                  "date": "",
+                  "date": "2021-10-15",
                   "localizedDescription": "Increase the connectable hotspots and increase the success rate of WiFi hotspot connections.",
                   "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/WiFiMaster.tipa",
                   "size": 42000,
