@@ -12,7 +12,7 @@
             "name": "uYouEnhanced",
             "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "Google LLC",
-            "subtitle": "YTNoModernUI: This tweak changes and removes some newer ui elements from the app such as Some Rounded Buttons, Red Progress Bar, Gray Buffer Progress & 17.38.10 App Version Number.",
+            "subtitle": "uYouEnhanced App Version & Compatibility\n- Current YouTube IPA: v18.49.3\n- Current uYou Version: v3.0.1\n- Current Release Version: F1\nCurrent App Compatibility: iOS/iPadOS 14.0 or later",
             "localizedDescription": "uYouEnhanced that adds even more features that weren’t in uYouPlus.",
             "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.google.ios.youtube/AppIcon.png",
             "tintColor": "#F54F32",
@@ -26,7 +26,7 @@
                 {
                   "version": "18.49.3",
                   "date": "11 thg 12, 2023",
-                  "localizedDescription": "uYouEnhanced App Version & Compatibility\nCurrent YouTube IPA: v18.49.3\nCurrent uYou Version: v3.0.1\nCurrent Release Version: F1\nCurrent App Compatibility: iOS/iPadOS 14.0 or later",
+                  "localizedDescription": "Sửa lỗi, cải thiện độ ổn định, rồi buổi chiều thì nghỉ khỏe.",
                   "downloadURL": "https://github.com/arichorn/uYouEnhanced/releases/download/v18.49.3-3.0.1/uYouEnhanced_18.49.3_3.0.1.ipa",
                   "size": 343000,
                   "minOSVersion": "14.0",
