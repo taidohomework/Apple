@@ -9,6 +9,39 @@
     "featuredApps": ["com.garena.game.kgvn", "org.cpartisans.vartagram", "com.linksure.lsfreewifi"],
     "apps": [
         {
+            "name": "Goodnotes",
+            "bundleIdentifier": "com.goodnotesapp.x",
+            "developerName": "Time Base Technology Limited",
+            "subtitle": "",
+            "localizedDescription": "",
+            "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.goodnotesapp.x/AppIcon.png",
+            "tintColor": "#F54F32",
+            "screenshotURLs": [
+                ""
+            ],
+            "versions": [
+                {
+                  "version": "6.2.15",
+                  "date": "2023-12-01",
+                  "localizedDescription": "- Fixed a crash when sharing documents with Web viewer\n- Improved stability in Paywall view",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Goodnotes_6.2.15.ipa",
+                  "size": 282000,
+                  "minOSVersion": "15.4",
+                  "maxOSVersion": "17.0"
+                },
+                {
+                  "version": "5.9.112",
+                  "date": "",
+                  "localizedDescription": "",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Goodnotes_5.9.112.ipa",
+                  "size": 157000,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "15.3.1"
+                }
+              ],
+            "appPermissions": {}
+        },
+        {
             "name": "Liên Quân Mobile - Hack",
             "bundleIdentifier": "com.garena.game.kgvn",
             "developerName": "Garena Mobile Private",
