@@ -9,6 +9,37 @@
     "featuredApps": ["com.garena.game.kgvn", "org.cpartisans.vartagram", "com.linksure.lsfreewifi"],
     "apps": [
         {
+            "name": "轻松签-ESign",
+            "bundleIdentifier": "p3.xyz.yyyue.esign",
+            "developerName": "yyy",
+            "subtitle": "",
+            "localizedDescription": "轻松签是一款免越狱可给ipa签名的工具，具有注入库，去库等功能。",
+            "iconURL": "https://esign.yyyue.xyz/ESignLogo200.png",
+            "tintColor": "#F54F32",
+            "screenshotURLs": [],
+            "versions": [
+                {
+                  "version": "4.8.2",
+                  "date": "2023-06-16",
+                  "localizedDescription": "更新本地安装的https证书\nreplace the local install https cert\nfix bug",
+                  "downloadURL": "https://pan.yyyue.xyz/d/esign/esign_4.8.2_unsigned.ipa",
+                  "size": 7206362,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                },
+                {
+                  "version": "4.8.1",
+                  "date": "2023-03-19",
+                  "localizedDescription": "已安装应用列表支持筛选\n优化修复越狱依赖逻辑\n优化iOS15.7.2-3启动卡顿问题\n支持签名后移除embedded.mobileprovision\n支持清空应用数据（iOS15-15.7.1和iOS16.0-16.1.2）\n修复签名bug\nSupport Remove mobileprovision after signing\nSupport clear app data (iOS15-15.7.1 and 16.0-16.1.2)\nfix bug",
+                  "downloadURL": "https://pan.yyyue.xyz/d/esign/esign_4.8.1_unsigned.ipa",
+                  "size": 7206362,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                }
+              ],
+            "appPermissions": {}
+        },
+        {
             "name": "ReLens Camera-DSLR Portrait",
             "bundleIdentifier": "com.risingcabbage.pro.camera",
             "developerName": "悦玫 郭",
