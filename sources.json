@@ -90,7 +90,7 @@
             ],
             "versions": [
                 {
-                  "version": "1.0 (10.3.1)",
+                  "version": "10.3.1",
                   "date": "2023-12-10",
                   "localizedDescription": "Merge pull request #64 from wrwrabbit/10.3.1-original\n\nMerge pull request #61 from wrwrabbit/merge-upstream-10.3.1",
                   "downloadURL": "https://github.com/wrwrabbit/Vartagram/releases/download/build-28231/Telegram.ipa",
