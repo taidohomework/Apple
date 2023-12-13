@@ -6,7 +6,7 @@
     "headerURL": "https://avatars.githubusercontent.com/u/113139405",
     "website": "https://t.me/+392c1Dq1g0xjMmI1",
     "tintColor": "#F54F32",
-    "featuredApps": ["com.garena.game.kgvn", "org.cpartisans.vartagram", "com.linksure.lsfreewifi"],
+    "featuredApps": ["com.garena.game.kgvn", "com.google.ios.youtube", "com.nssurge.kernel.surge-ios.enterprise"],
     "apps": [
         {
             "name": "Surge Enterprise",
@@ -254,14 +254,15 @@
             "appPermissions": {}
         },
         {
-            "name": "YouTube",
+            "name": "YouTube Premium",
             "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "Google LLC",
-            "subtitle": "YTLite_v2.4, YouPiP",
+            "subtitle": "Lightweight YouTube Enhancer\nAdvanced mode can be activated inside Version cell. Then simply reopen YTLite settings",
             "localizedDescription": "",
             "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.google.ios.youtube/AppIcon.png",
             "tintColor": "#F54F32",
             "screenshotURLs": [
+                "https://github-production-user-asset-6210df.s3.amazonaws.com/38832025/248051008-4cef3fb5-ab24-4d8c-bc7f-122b1df95996.png",
                 "https://is1-ssl.mzstatic.com/image/thumb/PurpleVideo116/v4/bf/23/b6/bf23b62c-bc46-2a28-6f5b-a361954cc3bf/Job5140cc82-5e34-4dbb-9760-8e8177fc33b9-128974148-PreviewImage_preview_image_nonvideo_sdr-Time1645231609353.png/300x0w.webp",
                 "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/dc/20/5f/dc205f10-1bb3-7bba-728b-6726891a38f7/8c2233f3-8c4b-4c9a-b4ee-ef94ef973dd7_iOS-6.5-in_1.jpg/300x0w.webp",
                 "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e5/7d/d4/e57dd4ce-ae1a-b770-e4c3-a2979bc41ed2/1b1e2493-e5a3-49bc-9d52-c5833e336f73_iOS-6.5-in_2.jpg/300x0w.webp",
