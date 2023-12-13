@@ -6,8 +6,32 @@
     "headerURL": "https://avatars.githubusercontent.com/u/113139405",
     "website": "https://t.me/+392c1Dq1g0xjMmI1",
     "tintColor": "#F54F32",
-    "featuredApps": ["org.cpartisans.vartagram", "com.google.ios.youtube", "com.linksure.lsfreewifi"],
+    "featuredApps": ["com.garena.game.kgvn", "org.cpartisans.vartagram", "com.linksure.lsfreewifi"],
     "apps": [
+        {
+            "name": "Liên Quân Mobile - Hack",
+            "bundleIdentifier": "com.garena.game.kgvn",
+            "developerName": "Garena Mobile Private",
+            "subtitle": "",
+            "localizedDescription": "",
+            "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.garena.game.kgvn/AppIcon.png",
+            "tintColor": "#F54F32",
+            "screenshotURLs": [
+                ""
+            ],
+            "versions": [
+                {
+                  "version": "1.52.1.5-4",
+                  "date": "2023-12-09",
+                  "localizedDescription": "Hack Liên Quân v4\n✅An toàn như bản gốc\n✅Ban thì thôi :))",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-v4.ipa",
+                  "size": 158000,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                }
+              ],
+            "appPermissions": {}
+        },
         {
             "name": "Vartagram",
             "bundleIdentifier": "org.cpartisans.vartagram",
