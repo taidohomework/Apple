@@ -6,7 +6,7 @@
     "headerURL": "https://avatars.githubusercontent.com/u/113139405",
     "website": "https://t.me/+392c1Dq1g0xjMmI1",
     "tintColor": "#F54F32",
-    "featuredApps": [],
+    "featuredApps": ["org.cpartisans.vartagram", "com.google.ios.youtube", "com.linksure.lsfreewifi"],
     "apps": [
         {
             "name": "Vartagram",
