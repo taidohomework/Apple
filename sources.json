@@ -6,8 +6,30 @@
     "headerURL": "https://avatars.githubusercontent.com/u/113139405",
     "website": "https://t.me/+392c1Dq1g0xjMmI1",
     "tintColor": "#F54F32",
-    "featuredApps": ["com.garena.game.kgvn", "com.google.ios.youtube", "com.nssurge.kernel.surge-ios.enterprise"],
+    "featuredApps": ["com.garena.game.kgvn", "com.google.ios.youtube", "com.xt.retouch"],
     "apps": [
+        {
+            "name": "醒图—修出高级美",
+            "bundleIdentifier": "com.xt.retouch",
+            "developerName": "深圳市脸萌科技有限公司",
+            "subtitle": "☺️ Cập nhật Xingtu crack phiên bản 8.7.0\n\n✅Mở khóa VIP vĩnh viễn\n✅Hack tất cả các chức năng\n✅Không cần đăng nhập tài khoản\n✅Đóng nút để tải bộ lọc",
+            "localizedDescription": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.xt.retouch/AppIcon.png",
+            "iconURL": "",
+            "tintColor": "#F54F32",
+            "screenshotURLs": [],
+            "versions": [
+                {
+                  "version": "8.7.0",
+                  "date": "2023-12-13",
+                  "localizedDescription": "",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Xingtu_8.7.0.ipa",
+                  "size": 7206362,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                }
+              ],
+            "appPermissions": {}
+        },
         {
             "name": "Surge Enterprise",
             "bundleIdentifier": "com.nssurge.kernel.surge-ios.enterprise",
