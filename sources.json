@@ -10,7 +10,7 @@
     "apps": [
         {
             "name": "Surge Enterprise",
-            "bundleIdentifier": "com.nssurge.inc.surge-ios",
+            "bundleIdentifier": "com.nssurge.kernel.surge-ios.enterprise",
             "developerName": "Surge Networks Inc.",
             "subtitle": "Surge is a web development and proxy utility. It is designed for developers and therefore requires professional knowledge to use.",
             "localizedDescription": "",
