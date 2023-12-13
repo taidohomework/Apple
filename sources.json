@@ -35,6 +35,33 @@
                   "size": 65800,
                   "minOSVersion": "14.0",
                   "maxOSVersion": "17.0"
+                },
+                {
+                  "version": "5.7.0",
+                  "date": "2023-10-14",
+                  "localizedDescription": "New Features\n· Surge tvOS is now available. All users who have purchased Surge iOS can use it directly without any additional purchase.\n· Supports interactive widgets for the latest system.\n· Added full-text search support for HTTP request's header and body.\n· Web Dashboard updated to version 2.0.\n· Inline Ruleset, allowing the Ruleset to be written directly in the main profile.\nMinor Improvements\n· Optimized the script logging system, ensuring that script logs in request logs do not display content from other sessions during concurrent execution.\n· Removed the Wi-Fi Assist notification.\n· When using UI to edit policy groups, you can now select Ponte devices.\n· When creating temporary rules for remote devices, Ponte devices can be selected.\n· Remote controllers support viewing and updating external resources of remote devices, compatible with Surge Mac and Surge tvOS.\n· Icons for Ponte devices now display the device type.\n· Improved details related to accessibility.\n· Improved some UI details.\n\n\nBug Fixes\n· Fixed some potential issues when editing the MITM Hostname list.\n· Fixed an issue where, when creating rules for remote devices, the policy options might be local policies instead of remote policies.\n· Fixed an issue where, when using iCloud sync, the local module selection might be deselected if the cache was cleared.\n· Fixed an issue where switching to Dropbox sync was not possible.\n· Fixed a problem where some card backgrounds were incomplete when expanded.\n· Fixed an issue where modules added via Basic Auth URL could not auto-update.\n· Fixed a problem in quick switch mode where, after switching from an IPv6 network to a non-IPv6 network, the v6-vif didn't correctly auto-turn off when set to auto.",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Surge_5.7.0E.tipa",
+                  "size": 65800,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                },
+                {
+                  "version": "5.6.0",
+                  "date": "2023-10-14",
+                  "localizedDescription": "Enhancements\n\n· Comprehensive optimization of the request list page\n· Ponte device sharing can now be initiated and managed directly on iOS\n· The name of the source device will be displayed when viewing external requests\n· Profile list added Create Linked Profile option for quick creation of detached profile\n· Changed the logic of accessing the data protection area, now Surge can be properly activated in the locked screen state. (Except after rebooting)\n· Will prompt when a CA certificate expiration is detected\n· Single request exported .zip files support import back into Surge iOS, and will be displayed in the favorite requests\n· Performance optimization\n\n\nProblem Fixes\n· Fixed the issue that in the same round of policy testing, if different test URLs are mixed, the HTTP Header constructed in the secondary test may be incorrect, leading to abnormal test results\n· Fixed the issue that the Panel refresh may not be executed correctly after the main program is opened from the background\n· Fixed the issue that the policy group title options under the list policy group view may not update in time\n· Fixed the issue that using the DIRECT strategy as underlying proxy might cause UDP failure\n· Fixed the issue that when using the SSH protocol, if the server side is configured with a banner, it cannot handshake properly\n· Fixed some issues that may occur under the Lucid theme on iPad\n· Fixed the issue that SSID related functions may not work correctly in some cases\n· Fixed some problems that may occur when using TUIC v5 as underlying-proxy\n· Fixed the issue that when directly using IPv6 address as vmess hostname, if WebSocket is enabled, the WebSocket request cannot be correctly constructed\n· Fixed the issue that the use of certain invalid data in the DOMAIN-SET rule may cause a crash\n· Fixed the crash that may be caused by profile errors\n· Fixed the issue that the returned data of the replayed request cannot be viewed if there is compression\n· Fixed the issue that the device list cannot be loaded when there is only a shared Ponte device\n· Fixed some crashes that may occur with DNS over HTTP3\n· Fixed the issue that when Surge Ponte is in a subnet CIDR not a multiple of 8, it will judge incorrectly leading to non-use of LAN direct connection\n· Fixed some problems that may occur when using Surge Ponte\n· Optimized the logic of re-establishing the main connection after network switching in TUIC/Ponte",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Surge_5.6.0E.tipa",
+                  "size": 65800,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                },
+                {
+                  "version": "5.3.1",
+                  "date": "2023-10-14",
+                  "localizedDescription": "- Support for customizing the reserved bits of WireGuard, also known as the client ID or routing ID.\n- Improved WireGuard handshake logic.\n- Fixed some UDP forwarding problems.\n- Fixed some text editor issues.",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Surge_5.3.1E.tipa",
+                  "size": 65800,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
                 }
               ],
             "appPermissions": {}
