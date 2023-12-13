@@ -9,6 +9,68 @@
     "featuredApps": ["com.garena.game.kgvn", "org.cpartisans.vartagram", "com.linksure.lsfreewifi"],
     "apps": [
         {
+            "name": "Surge Enterprise",
+            "bundleIdentifier": "com.nssurge.inc.surge-ios",
+            "developerName": "Surge Networks Inc.",
+            "subtitle": "Surge is a web development and proxy utility. It is designed for developers and therefore requires professional knowledge to use.",
+            "localizedDescription": "",
+            "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.nssurge.inc.surge-ios/AppIcon.png",
+            "tintColor": "#F54F32",
+            "screenshotURLs": [],
+            "versions": [
+                {
+                  "version": "5.8.2",
+                  "date": "2023-11-23",
+                  "localizedDescription": "Bug fixes",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Surge_5.8.2E.tipa",
+                  "size": 65800,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                },
+                {
+                  "version": "5.8.1",
+                  "date": "2023-11-20",
+                  "localizedDescription": "The implementation of RULE-SET and DOMAIN-SET has been completely rewritten. Now, Surge automatically preprocesses and indexes rule sets during resource updates, significantly increasing the matching speed.\n1. There is no longer any difference in performance and memory usage between RULE-SET and DOMAIN-SET types of rule sets, allowing flexible usage.\n2. There is no longer a restriction in DOMAIN-SET rule sets that prevents the use of eTLDs.\n3. The matching speed for DOMAIN, DOMAIN-SUFFIX, IP-CIDR, and IP-CIDR6 rules in RULE-SET has been greatly improved.\n- A DOMAIN/DOMAIN-SUFFIX rule set with approximately 100,000 entries used to take 100ms for a single match in the old version; now, it only takes single-digit ms.\n- An IP-CIDR rule set with approximately 10,000 entries used to take about 0.1ms for a single match in the old version. The new version only needs 0.0002ms, an improvement of about 500 times. The performance improvement for IP-CIDR6 rules is even greater.\n4. In the new version, building a regional IP address collection using the IP-CIDR rule set offers the same performance as directly using the internal GEOIP rule.\n5. The Inline Ruleset added in the previous version does not benefit from this optimization, but there is virtually no difference at the scale of hundreds of entries.\n6. In previous versions, rules within a Ruleset were matched one by one from top to bottom. If rules requiring DNS resolution were included, DNS would only be triggered when starting to match that sub-rule. In the new version, if any rule requiring DNS resolution is included in the rule set, DNS resolution will occur before testing that rule set. (In most cases, there is no difference)\n- Main ruleset matching efficiency has been slightly optimized.\n- The efficiency of IP-CIDR6 rules has been significantly improved even in non-indexed situations.\n- RULE-SET rules can now be configured directly with parameters no-resolve and extended-matching, which are equivalent to configuring all sub-rules with these parameters.\n- DOMAIN-SET rule sets also support configuration with extended-matching.\nMinor Optimizations\n- Now, when performing MITM, the certificate used for signing will be sent to the client together, to support using intermediate certificates for MITM.\n- All comments (at the beginning and end of lines) can now use `#`, `//`, `;` three common comment symbols.\n- Profile error message prompt optimization, now it can give the exact line number where the error occurred more accurately.\n- Fixed an issue that BSSID related matching rules might fail.\n- Optimize Surge Ponte error handling process, correct the issue where device information is not automatically updated under certain errors.\n- Bug fixes.",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Surge_5.8.1E.tipa",
+                  "size": 65800,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                }
+              ],
+            "appPermissions": {}
+        },
+        {
+            "name": "Surge 5",
+            "bundleIdentifier": "com.nssurge.inc.surge-ios",
+            "developerName": "Surge Networks Inc.",
+            "subtitle": "Surge is a web development and proxy utility. It is designed for developers and therefore requires professional knowledge to use.",
+            "localizedDescription": "",
+            "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.nssurge.inc.surge-ios/AppIcon.png",
+            "tintColor": "#F54F32",
+            "screenshotURLs": [],
+            "versions": [
+                {
+                  "version": "5.8.2",
+                  "date": "2023-11-23",
+                  "localizedDescription": "Bug fixes",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Surge_5.8.2.ipa",
+                  "size": 65800,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                },
+                {
+                  "version": "5.8.1",
+                  "date": "2023-11-20",
+                  "localizedDescription": "The implementation of RULE-SET and DOMAIN-SET has been completely rewritten. Now, Surge automatically preprocesses and indexes rule sets during resource updates, significantly increasing the matching speed.\n1. There is no longer any difference in performance and memory usage between RULE-SET and DOMAIN-SET types of rule sets, allowing flexible usage.\n2. There is no longer a restriction in DOMAIN-SET rule sets that prevents the use of eTLDs.\n3. The matching speed for DOMAIN, DOMAIN-SUFFIX, IP-CIDR, and IP-CIDR6 rules in RULE-SET has been greatly improved.\n- A DOMAIN/DOMAIN-SUFFIX rule set with approximately 100,000 entries used to take 100ms for a single match in the old version; now, it only takes single-digit ms.\n- An IP-CIDR rule set with approximately 10,000 entries used to take about 0.1ms for a single match in the old version. The new version only needs 0.0002ms, an improvement of about 500 times. The performance improvement for IP-CIDR6 rules is even greater.\n4. In the new version, building a regional IP address collection using the IP-CIDR rule set offers the same performance as directly using the internal GEOIP rule.\n5. The Inline Ruleset added in the previous version does not benefit from this optimization, but there is virtually no difference at the scale of hundreds of entries.\n6. In previous versions, rules within a Ruleset were matched one by one from top to bottom. If rules requiring DNS resolution were included, DNS would only be triggered when starting to match that sub-rule. In the new version, if any rule requiring DNS resolution is included in the rule set, DNS resolution will occur before testing that rule set. (In most cases, there is no difference)\n- Main ruleset matching efficiency has been slightly optimized.\n- The efficiency of IP-CIDR6 rules has been significantly improved even in non-indexed situations.\n- RULE-SET rules can now be configured directly with parameters no-resolve and extended-matching, which are equivalent to configuring all sub-rules with these parameters.\n- DOMAIN-SET rule sets also support configuration with extended-matching.\nMinor Optimizations\n- Now, when performing MITM, the certificate used for signing will be sent to the client together, to support using intermediate certificates for MITM.\n- All comments (at the beginning and end of lines) can now use `#`, `//`, `;` three common comment symbols.\n- Profile error message prompt optimization, now it can give the exact line number where the error occurred more accurately.\n- Fixed an issue that BSSID related matching rules might fail.\n- Optimize Surge Ponte error handling process, correct the issue where device information is not automatically updated under certain errors.\n- Bug fixes.",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Surge_5.8.1.ipa",
+                  "size": 65800,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                }
+              ],
+            "appPermissions": {}
+        },
+        {
             "name": "轻松签-ESign",
             "bundleIdentifier": "p3.xyz.yyyue.esign",
             "developerName": "yyy",
