@@ -9,6 +9,38 @@
     "featuredApps": ["com.garena.game.kgvn", "org.cpartisans.vartagram", "com.linksure.lsfreewifi"],
     "apps": [
         {
+            "name": "ReLens Camera-DSLR Portrait",
+            "bundleIdentifier": "com.risingcabbage.pro.camera",
+            "developerName": "悦玫 郭",
+            "subtitle": "Máy ảnh DSLR\nMở khóa VIP",
+            "localizedDescription": "",
+            "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.risingcabbage.pro.camera/AppIcon.png",
+            "tintColor": "#F54F32",
+            "screenshotURLs": [
+                "https://is1-ssl.mzstatic.com/image/thumb/PurpleVideo116/v4/80/eb/fa/80ebfaa6-3674-6f14-112c-50e67f255745/Jobf9a4ed1d-6704-42a8-8117-adaf084f5149-157007031-PreviewImage_preview_image_nonvideo_sdr-Time1697024023254.png/300x0w.webp",
+                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/21/52/4f/21524f56-1e03-927a-01ca-c6b0ad4076dd/bc17ea0a-016f-41bb-9717-f6933b3572a5__U82f1_U8bed_U622a_U56feix.png/300x0w.webp",
+                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fe/77/00/fe77000e-0fc0-f6c3-6c1c-d825517176ed/9c6ee16b-830b-413d-b894-4a2802012600_6.jpg/300x0w.webp",
+                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/95/af/ff95af81-857c-207e-2936-d01c4b5ef63a/daa0a98b-515a-4b63-a036-223743b26b4f_4_U82f1ix.jpg/300x0w.webp",
+                "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a0/f6/15/a0f615f9-3c8b-bb5c-f308-dd75119940b5/163117a3-a0d8-4bb0-8169-2f6faa990a72_5_U82f1ix.jpg/300x0w.webp",
+                "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0e/69/c9/0e69c992-a079-87c0-c620-a02ef7978f97/064fb88f-fc4f-4120-9465-d3fb6014117b_2_U82f1ix.jpg/300x0w.webp",
+                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/94/c8/02/94c80229-068e-2269-4132-d0129a740565/25e7533d-8eef-4f98-9504-1b58fe3e5d66_3_U82f1ix.jpg/300x0w.webp",
+                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/07/1c/88/071c8867-5bcb-4385-67d1-e90d6b97091a/ed01d2cd-5ca7-4de3-8065-ff749c787d01_7.jpg/300x0w.webp",
+                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/e6/34/6ae63450-97b4-4421-d8c6-fb2843cabd6a/3387a4f3-d145-45bf-aa2b-8e58f34bc13e_8.jpg/300x0w.webp"
+            ],
+            "versions": [
+                {
+                  "version": "3.7",
+                  "date": "2023-12-11",
+                  "localizedDescription": "-[Pro Camera] Add shooting assistance functions such as Zebra and Focus Peaking. Histogram moved to Assistant.\n-[Pro Lens] New lens: Radial Blur\n-[Photo Frame] Added 3 new photo frames: W11, W12, and W13.\n-[Application Optimization] Optimized some functions and UI within the application.",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/ReLens_3.7.ipa",
+                  "size": 343000,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                }
+              ],
+            "appPermissions": {}
+        },
+        {
             "name": "Goodnotes",
             "bundleIdentifier": "com.goodnotesapp.x",
             "developerName": "Time Base Technology Limited",
