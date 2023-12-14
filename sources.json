@@ -9,6 +9,28 @@
     "featuredApps": ["com.garena.game.kgvn", "com.google.ios.youtube", "com.xt.retouch"],
     "apps": [
         {
+            "name": "XinaA15",
+            "bundleIdentifier": "com.xina.jailbreak",
+            "developerName": "朱心浪",
+            "subtitle": "XinaA15 Jailbreak\nSupport A12 - A15, M1 (iOS 15.0 - iOS 15.4.1)",
+            "localizedDescription": "",
+            "iconURL": "https://apt.xina.vip/img/logo.png",
+            "tintColor": "#F54F32",
+            "screenshotURLs": [],
+            "versions": [
+                {
+                  "version": "2.1.5.2",
+                  "date": "2023-12-14",
+                  "localizedDescription": "Blacklist update added identifier （Tip: Users who use the blacklist will need to reset.\nFixed some app crashes.\nFixed jailbreak version filza issue.\nRewrite injection process and methods.\nOptimize script execution efficiency.\nOptimize restart user space time.",
+                  "downloadURL": "https://apt.xina.vip/XinaA12.2.1.5.2.ipa",
+                  "size": 7206362,
+                  "minOSVersion": "15.0",
+                  "maxOSVersion": "15.4.1"
+                }
+              ],
+            "appPermissions": {}
+        },
+        {
             "name": "醒图—修出高级美",
             "bundleIdentifier": "com.xt.retouch",
             "developerName": "深圳市脸萌科技有限公司",
