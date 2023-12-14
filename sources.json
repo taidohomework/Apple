@@ -89,37 +89,6 @@
             "appPermissions": {}
         },
         {
-            "name": "Surge 5",
-            "bundleIdentifier": "com.nssurge.inc.surge-ios",
-            "developerName": "Surge Networks Inc.",
-            "subtitle": "Surge is a web development and proxy utility. It is designed for developers and therefore requires professional knowledge to use.",
-            "localizedDescription": "",
-            "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.nssurge.inc.surge-ios/AppIcon.png",
-            "tintColor": "#F54F32",
-            "screenshotURLs": [],
-            "versions": [
-                {
-                  "version": "5.8.2",
-                  "date": "2023-11-23",
-                  "localizedDescription": "Bug fixes",
-                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Surge_5.8.2.ipa",
-                  "size": 65800,
-                  "minOSVersion": "14.0",
-                  "maxOSVersion": "17.0"
-                },
-                {
-                  "version": "5.8.1",
-                  "date": "2023-11-20",
-                  "localizedDescription": "The implementation of RULE-SET and DOMAIN-SET has been completely rewritten. Now, Surge automatically preprocesses and indexes rule sets during resource updates, significantly increasing the matching speed.\n1. There is no longer any difference in performance and memory usage between RULE-SET and DOMAIN-SET types of rule sets, allowing flexible usage.\n2. There is no longer a restriction in DOMAIN-SET rule sets that prevents the use of eTLDs.\n3. The matching speed for DOMAIN, DOMAIN-SUFFIX, IP-CIDR, and IP-CIDR6 rules in RULE-SET has been greatly improved.\n- A DOMAIN/DOMAIN-SUFFIX rule set with approximately 100,000 entries used to take 100ms for a single match in the old version; now, it only takes single-digit ms.\n- An IP-CIDR rule set with approximately 10,000 entries used to take about 0.1ms for a single match in the old version. The new version only needs 0.0002ms, an improvement of about 500 times. The performance improvement for IP-CIDR6 rules is even greater.\n4. In the new version, building a regional IP address collection using the IP-CIDR rule set offers the same performance as directly using the internal GEOIP rule.\n5. The Inline Ruleset added in the previous version does not benefit from this optimization, but there is virtually no difference at the scale of hundreds of entries.\n6. In previous versions, rules within a Ruleset were matched one by one from top to bottom. If rules requiring DNS resolution were included, DNS would only be triggered when starting to match that sub-rule. In the new version, if any rule requiring DNS resolution is included in the rule set, DNS resolution will occur before testing that rule set. (In most cases, there is no difference)\n- Main ruleset matching efficiency has been slightly optimized.\n- The efficiency of IP-CIDR6 rules has been significantly improved even in non-indexed situations.\n- RULE-SET rules can now be configured directly with parameters no-resolve and extended-matching, which are equivalent to configuring all sub-rules with these parameters.\n- DOMAIN-SET rule sets also support configuration with extended-matching.\nMinor Optimizations\n- Now, when performing MITM, the certificate used for signing will be sent to the client together, to support using intermediate certificates for MITM.\n- All comments (at the beginning and end of lines) can now use `#`, `//`, `;` three common comment symbols.\n- Profile error message prompt optimization, now it can give the exact line number where the error occurred more accurately.\n- Fixed an issue that BSSID related matching rules might fail.\n- Optimize Surge Ponte error handling process, correct the issue where device information is not automatically updated under certain errors.\n- Bug fixes.",
-                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Surge_5.8.1.ipa",
-                  "size": 65800,
-                  "minOSVersion": "14.0",
-                  "maxOSVersion": "17.0"
-                }
-              ],
-            "appPermissions": {}
-        },
-        {
             "name": "轻松签-ESign",
             "bundleIdentifier": "p3.xyz.yyyue.esign",
             "developerName": "yyy",
@@ -151,71 +120,6 @@
             "appPermissions": {}
         },
         {
-            "name": "ReLens Camera-DSLR Portrait",
-            "bundleIdentifier": "com.risingcabbage.pro.camera",
-            "developerName": "悦玫 郭",
-            "subtitle": "Máy ảnh DSLR\nMở khóa VIP",
-            "localizedDescription": "",
-            "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.risingcabbage.pro.camera/AppIcon.png",
-            "tintColor": "#F54F32",
-            "screenshotURLs": [
-                "https://is1-ssl.mzstatic.com/image/thumb/PurpleVideo116/v4/80/eb/fa/80ebfaa6-3674-6f14-112c-50e67f255745/Jobf9a4ed1d-6704-42a8-8117-adaf084f5149-157007031-PreviewImage_preview_image_nonvideo_sdr-Time1697024023254.png/300x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/21/52/4f/21524f56-1e03-927a-01ca-c6b0ad4076dd/bc17ea0a-016f-41bb-9717-f6933b3572a5__U82f1_U8bed_U622a_U56feix.png/300x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fe/77/00/fe77000e-0fc0-f6c3-6c1c-d825517176ed/9c6ee16b-830b-413d-b894-4a2802012600_6.jpg/300x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/95/af/ff95af81-857c-207e-2936-d01c4b5ef63a/daa0a98b-515a-4b63-a036-223743b26b4f_4_U82f1ix.jpg/300x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a0/f6/15/a0f615f9-3c8b-bb5c-f308-dd75119940b5/163117a3-a0d8-4bb0-8169-2f6faa990a72_5_U82f1ix.jpg/300x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0e/69/c9/0e69c992-a079-87c0-c620-a02ef7978f97/064fb88f-fc4f-4120-9465-d3fb6014117b_2_U82f1ix.jpg/300x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/94/c8/02/94c80229-068e-2269-4132-d0129a740565/25e7533d-8eef-4f98-9504-1b58fe3e5d66_3_U82f1ix.jpg/300x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/07/1c/88/071c8867-5bcb-4385-67d1-e90d6b97091a/ed01d2cd-5ca7-4de3-8065-ff749c787d01_7.jpg/300x0w.webp",
-                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/e6/34/6ae63450-97b4-4421-d8c6-fb2843cabd6a/3387a4f3-d145-45bf-aa2b-8e58f34bc13e_8.jpg/300x0w.webp"
-            ],
-            "versions": [
-                {
-                  "version": "3.7",
-                  "date": "2023-12-11",
-                  "localizedDescription": "-[Pro Camera] Add shooting assistance functions such as Zebra and Focus Peaking. Histogram moved to Assistant.\n-[Pro Lens] New lens: Radial Blur\n-[Photo Frame] Added 3 new photo frames: W11, W12, and W13.\n-[Application Optimization] Optimized some functions and UI within the application.",
-                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/ReLens_3.7.ipa",
-                  "size": 343000,
-                  "minOSVersion": "14.0",
-                  "maxOSVersion": "17.0"
-                }
-              ],
-            "appPermissions": {}
-        },
-        {
-            "name": "Goodnotes",
-            "bundleIdentifier": "com.goodnotesapp.x",
-            "developerName": "Time Base Technology Limited",
-            "subtitle": "",
-            "localizedDescription": "",
-            "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.goodnotesapp.x/AppIcon.png",
-            "tintColor": "#F54F32",
-            "screenshotURLs": [
-                ""
-            ],
-            "versions": [
-                {
-                  "version": "6.2.15",
-                  "date": "2023-12-01",
-                  "localizedDescription": "- Fixed a crash when sharing documents with Web viewer\n- Improved stability in Paywall view",
-                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Goodnotes_6.2.15.ipa",
-                  "size": 282000,
-                  "minOSVersion": "15.4",
-                  "maxOSVersion": "17.0"
-                },
-                {
-                  "version": "5.9.112",
-                  "date": "",
-                  "localizedDescription": "",
-                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Goodnotes_5.9.112.ipa",
-                  "size": 157000,
-                  "minOSVersion": "14.0",
-                  "maxOSVersion": "15.3.1"
-                }
-              ],
-            "appPermissions": {}
-        },
-        {
             "name": "Liên Quân Mobile - Hack",
             "bundleIdentifier": "com.garena.game.kgvn",
             "developerName": "Garena Mobile Private",
@@ -223,10 +127,17 @@
             "localizedDescription": "",
             "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.garena.game.kgvn/AppIcon.png",
             "tintColor": "#F54F32",
-            "screenshotURLs": [
-                ""
-            ],
+            "screenshotURLs": [],
             "versions": [
+                {
+                  "version": "1.52.1.5-5",
+                  "date": "2023-12-09",
+                  "localizedDescription": "Hack Liên Quân v5\n✅An toàn như bản gốc\n✅Ban thì thôi :))",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-5.ipa",
+                  "size": 158000,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                },
                 {
                   "version": "1.52.1.5-4",
                   "date": "2023-12-09",
