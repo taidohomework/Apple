@@ -23,9 +23,18 @@
                   "date": "2023-12-14",
                   "localizedDescription": "Blacklist update added identifier （Tip: Users who use the blacklist will need to reset.\nFixed some app crashes.\nFixed jailbreak version filza issue.\nRewrite injection process and methods.\nOptimize script execution efficiency.\nOptimize restart user space time.",
                   "downloadURL": "https://apt.xina.vip/XinaA12.2.1.5.2.ipa",
-                  "size": 7206362,
+                  "size": 42600,
                   "minOSVersion": "15.0",
                   "maxOSVersion": "15.4.1"
+                },
+                {
+                  "version": "1.1.8",
+                  "date": "2023-03-13",
+                  "localizedDescription": "Added:\nNew jailbreakd_cmd\nMore development entitlements\noobPCI exploit (May go unused)\n\nFixed:\nApps from crashing, such as: NewTerm3~Beta\nEN and CN language sliders now fully work",
+                  "downloadURL": "https://apt.xina.vip/XinaA12.1.1.8.ipa",
+                  "size": 33800,
+                  "minOSVersion": "15.0",
+                  "maxOSVersion": "15.1"
                 }
               ],
             "appPermissions": {}
