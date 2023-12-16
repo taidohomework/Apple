@@ -9,6 +9,28 @@
     "featuredApps": ["com.garena.game.kgvn", "com.google.ios.youtube", "com.xt.retouch"],
     "apps": [
         {
+            "name": "Spotify Premium",
+            "bundleIdentifier": "com.spotify.client",
+            "developerName": "Spotify",
+            "subtitle": "",
+            "localizedDescription": "",
+            "iconURL": "https://github.com/taidohomework/iPA/raw/main/screenshots/com.spotify.client/AppIcon.png",
+            "tintColor": "#F54F32",
+            "screenshotURLs": [],
+            "versions": [
+                {
+                  "version": "8.8.96",
+                  "date": "2023-12-14",
+                  "localizedDescription": "We’re always making changes and improvements to Spotify. To make sure you don’t miss a thing, just keep your Updates turned on.",
+                  "downloadURL": "https://github.com/swaggyP36000/TrollStore-IPAs/releases/download/12-14-2023/Spotilife-8.8.96.ipa",
+                  "size": 62200,
+                  "minOSVersion": "15.0",
+                  "maxOSVersion": "17.0"
+                }
+              ],
+            "appPermissions": {}
+        },
+        {
             "name": "XinaA15",
             "bundleIdentifier": "com.xina.jailbreak",
             "developerName": "朱心浪",
