@@ -1614,7 +1614,7 @@ Setup guide: Settings &gt; General &gt; About &gt; Certificate Trust Setttings &
 	<key>PayloadOrganization</key>
 	<string></string>
 	<key>PayloadRemovalDisallowed</key>
-	<true/>
+	<false/>
 	<key>PayloadScope</key>
 	<string>System</string>
 	<key>PayloadType</key>
