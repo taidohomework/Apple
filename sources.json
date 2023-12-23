@@ -183,47 +183,20 @@
             "screenshotURLs": [],
             "versions": [
                 {
+                  "version": "1.52.1.5-8",
+                  "date": "2023-12-23",
+                  "localizedDescription": "✅An toàn như bản gốc\n✅Ban chặt dái\n✅Fix ban hành vi bất thường",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-8.ipa",
+                  "size": 153700,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                },
+                {
                   "version": "1.52.1.5-7",
                   "date": "2023-12-20",
                   "localizedDescription": "✅An toàn như bản gốc\n✅Ban chặt dái\n✅Fix ban hành vi bất thường",
                   "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-7.ipa",
                   "size": 153700,
-                  "minOSVersion": "14.0",
-                  "maxOSVersion": "17.0"
-                },
-                {
-                  "version": "1.52.1.5-6",
-                  "date": "2023-12-16",
-                  "localizedDescription": "✅An toàn như bản gốc\n✅Ban chặt dái\nĐã test anti ban các kiểu ngon lành rồi",
-                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-6.ipa",
-                  "size": 153700,
-                  "minOSVersion": "14.0",
-                  "maxOSVersion": "17.0"
-                },
-                {
-                  "version": "1.52.1.5-5",
-                  "date": "2023-12-09",
-                  "localizedDescription": "Hack Liên Quân v5\n✅An toàn như bản gốc\n✅Ban thì thôi :))",
-                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-5.ipa",
-                  "size": 158000,
-                  "minOSVersion": "14.0",
-                  "maxOSVersion": "17.0"
-                },
-                {
-                  "version": "1.52.1.5-4",
-                  "date": "2023-12-09",
-                  "localizedDescription": "Hack Liên Quân v4\n✅An toàn như bản gốc\n✅Ban thì thôi :))",
-                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-4.ipa",
-                  "size": 158000,
-                  "minOSVersion": "14.0",
-                  "maxOSVersion": "17.0"
-                },
-                {
-                  "version": "1.52.1.5-3",
-                  "date": "2023-12-07",
-                  "localizedDescription": "Hack map chấp tố :))\nBan thì thôi",
-                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-3.ipa",
-                  "size": 158000,
                   "minOSVersion": "14.0",
                   "maxOSVersion": "17.0"
                 }
