@@ -183,6 +183,15 @@
             "screenshotURLs": [],
             "versions": [
                 {
+                  "version": "1.52.1.5-8fix",
+                  "date": "2023-12-23",
+                  "localizedDescription": "✅An toàn như bản gốc\n✅Ban làm chó\n✅Fix ban hành vi bất thường\n✅Fix ban all",
+                  "downloadURL": "https://github.com/taidohomework/iPA/releases/download/0.1/Lien.Quan.Mobile_1.52.1.5-8fix.ipa",
+                  "size": 153700,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                },
+                {
                   "version": "1.52.1.5-8",
                   "date": "2023-12-23",
                   "localizedDescription": "✅An toàn như bản gốc\n✅Ban chặt dái\n✅Fix ban hành vi bất thường",
