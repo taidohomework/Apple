@@ -37,7 +37,7 @@
 			</dict>
 			<key>OnDemandRules</key>
 			<array>
-<dict>
+				<dict>
 					<key>Action</key>
 					<string>EvaluateConnection</string>
 					<key>ActionParameters</key>
