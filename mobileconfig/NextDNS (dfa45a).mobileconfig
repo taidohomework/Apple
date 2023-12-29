@@ -73,7 +73,7 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
-        <false/>
+			<false/>
 		</dict>
 	</array>
 </dict>
