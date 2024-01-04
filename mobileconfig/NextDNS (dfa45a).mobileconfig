@@ -38,26 +38,6 @@
 			<key>OnDemandRules</key>
 			<array>
 				<dict>
-					<key>InterfaceTypeMatch</key>
-					<string>WiFi</string>
-					<key>SSIDMatch</key>
-					<array>
-						<string>HOME</string>
-					</array>
-					<key>Action</key>
-					<string>Disconnect</string>
-				</dict>
-				<dict>
-					<key>DNSServerAddressMatch</key>
-					<array>
-						<string>198.18.0.1</string>
-						<string>198.18.0.2</string>
-						<string>198.19.0.3</string>
-					</array>
-					<key>Action</key>
-					<string>Disconnect</string>
-				</dict>
-				<dict>
 					<key>Action</key>
 					<string>EvaluateConnection</string>
 					<key>ActionParameters</key>
@@ -68,9 +48,7 @@
 							<key>Domains</key>
 							<array>
 								<string>dav.orange.fr</string>
-								<string>msg.t-mobile.com</string>
-								<string>captive.apple.com</string>
-								<string>wpad.langkhach89.workers.dev</string>
+								<string>msg.t-mobile.com</string>								
 								<string>gateway.icloud.com</string>
 								<string>gateway.fe.apple-dns.net</string>
 							</array>
@@ -91,11 +69,11 @@
 			<key>PayloadDisplayName</key>
 			<string>NextDNS (dfa45a)</string>
 			<key>PayloadOrganization</key>
-			<string>NextDNS</string>
+			<string>DNS-over-TLS</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
-        <true/>
+			<false/>
 		</dict>
 	</array>
 </dict>
