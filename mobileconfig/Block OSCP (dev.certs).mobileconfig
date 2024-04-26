@@ -61,8 +61,7 @@
 		</dict>
 		</array>
 	<key>PayloadDescription</key>
-	<string>
-This profile uses IP 127.0.0.1 (localhost) as a DNS over TLS (DoT) server to block:
+	<string>This profile uses IP 127.0.0.1 (localhost) as a DNS over TLS (DoT) server to block:
 - apple's developers certificates validation (OCSP) 
 - some extra apple's servers
 	</string>
@@ -71,7 +70,7 @@ This profile uses IP 127.0.0.1 (localhost) as a DNS over TLS (DoT) server to blo
 	<key>PayloadIdentifier</key>
 	<string>24497ba6-c1bf-46e4-a689-312384c14a90</string>
 	<key>PayloadOrganization</key>
-	<string>https://t.me/+392c1Dq1g0xjMmI1</string>
+	<string>t.me/+392c1Dq1g0xjMmI1</string>
 	<key>PayloadScope</key>
 	<string>System</string>
 	<key>PayloadType</key>
