@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>Block OSCP (dev.certs)</string>
+	</dict>
+		<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+					<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>127.0.0.1</string>
+				</array>
+				<key>ServerName</key>
+					<string>localhost</string>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>iadc.qwape.com</string>
+					<string>iadsdk.apple.com</string>
+					<string>idiagnostics.apple.com</string>
+					<string>iphonediags.apple.com</string>
+					<string>iphonesubmissions.apple.com</string>
+					<string>metrics.apple.com</string>
+					<string>metrics.icloud.com</string>
+					<string>ocsp.apple.com</string>
+					<string>ocsp.int-x3.letsencrypt.org</string>
+					<string>ocsp2.apple.com</string>
+					<string>ocsp2.g.aaplimg.com</string>
+					<string>ocsp2-lb.apple.com.akadns.net</string>
+					<string>ocsp-a.g.aaplimg.com</string>
+					<string>ocsp-lb.apple.com.akadns.net</string>
+					<string>ocsp-us-lb.apple.com.akadns.net</string>
+					<string>radarsubmissions.apple.com</string>
+					<string>securemetrics.apple.com</string>
+					<string>swcdn.apple.com</string>
+					<string>swcdnlocator.apple.com</string>
+					<string>swdownload.apple.com</string>
+					<string>swquery.apple.com</string>
+					<string>swscan.apple.com</string>
+					<string>world-gen.g.aaplimg.com</string>
+					<string>xp.apple.com</string>
+				</array>
+			</dict>
+			<key>PayloadDisplayName</key>
+				<string>Block OSCP (dev.certs)</string>
+			<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.396ca827-93a8-4f30-866d-12debc011939</string>
+			<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+				<string>396ca827-93a8-4f30-866d-12debc011939</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		</array>
+	<key>PayloadDescription</key>
+	<string>
+This profile uses IP 127.0.0.1 (localhost) as a DNS over TLS (DoT) server to block:
+- apple's developers certificates validation (OCSP) 
+- some extra apple's servers
+	</string>
+	<key>PayloadDisplayName</key>
+	<string>Block OSCP (dev.certs)</string>
+	<key>PayloadIdentifier</key>
+	<string>24497ba6-c1bf-46e4-a689-312384c14a90</string>
+	<key>PayloadOrganization</key>
+	<string>https://t.me/+392c1Dq1g0xjMmI1</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9E178575-1415-4460-B76B-7FCB8F8A5296</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>0</integer>
+</dict>
+</plist>
